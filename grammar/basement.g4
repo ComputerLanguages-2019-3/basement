@@ -1,0 +1,20 @@
+grammar basement;
+
+init : command | config;
+config: (DEPLOY_TK ID IMAGE_TK | BASEMNT_LIST ) params;
+command: ( SET_TK type_command | REMOVE_TK ) ID | PERFORM_TK ID params;
+params: deploy_params | bst_params | perform_params;
+deploy_params: ;
+bst_params:;
+perform_params: ;
+key_val: STRING':' STRING;
+type_command: ('down '|'up ');
+ID : [a-zA-z]+ ;
+REMOVE_TK: 'remove ';
+SET_TK: 'set-';
+PERFORM_TK: 'perform ';
+DEPLOY_TK: 'deploy';
+BASEMNT_LIST: 'basement-list';
+STRING: ;
+IMAGE_TK: ;
+WS: [ \t\n\r] + -> skip;
