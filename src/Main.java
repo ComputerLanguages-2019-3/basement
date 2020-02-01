@@ -14,6 +14,7 @@ public class Main {
             CommonTokenStream tokens = new CommonTokenStream(lexer);
             basementParser parser = new basementParser(tokens);
             ParseTree tree = parser.init();
+            System.out.println("");
             System.out.println(tree.toStringTree(parser));
         } catch (Exception e) {
             System.err.println("Error (Test) " + e);

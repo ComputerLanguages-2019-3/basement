@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66cd8d45-56e9-4772-87ed-74981c193983" name="Default Changelist" comment="" />
+    <list default="true" id="66cd8d45-56e9-4772-87ed-74981c193983" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basement_infra.iml" beforeDir="false" afterPath="$PROJECT_DIR$/basement_infra.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/basement.interp" beforeDir="false" afterPath="$PROJECT_DIR$/gen/basement.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/basement.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/gen/basement.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/basementBaseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/gen/basementBaseListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/basementBaseVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/gen/basementBaseVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/basementLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/gen/basementLexer.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/basementLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/gen/basementLexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/basementLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/gen/basementLexer.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/basementListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/gen/basementListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/basementParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/gen/basementParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/basementVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/gen/basementVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grammar/basement.g4" beforeDir="false" afterPath="$PROJECT_DIR$/grammar/basement.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input/entrada.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input/entrada.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basement.interp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basement.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basement.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basement.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementBaseListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementBaseListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementBaseVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementBaseVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementLexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementLexer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementLexer.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementLexer.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$InitContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$InitContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +43,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WS6QoeJqiLANjlNs2JxgLJdnvw" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,9 +54,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/input/entrada.txt" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -65,6 +104,21 @@
       <workItem from="1580156167177" duration="106000" />
       <workItem from="1580156285241" duration="87000" />
       <workItem from="1580224262718" duration="158000" />
+      <workItem from="1580225252470" duration="31000" />
+      <workItem from="1580226331622" duration="1505000" />
+      <workItem from="1580251926222" duration="541000" />
+      <workItem from="1580274008869" duration="1584000" />
+      <workItem from="1580276986254" duration="116000" />
+      <workItem from="1580277117458" duration="610000" />
+      <workItem from="1580311153892" duration="5600000" />
+      <workItem from="1580338020917" duration="3186000" />
+      <workItem from="1580428171907" duration="889000" />
+      <workItem from="1580573397126" duration="2018000" />
+      <workItem from="1580575467522" duration="73000" />
+      <workItem from="1580575912507" duration="1393000" />
+      <workItem from="1580581013156" duration="83000" />
+      <workItem from="1580581107803" duration="48000" />
+      <workItem from="1580581169948" duration="3907000" />
     </task>
     <servers />
   </component>
@@ -72,51 +126,78 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="395" y="135" width="775" height="511" key="#Project_Structure" timestamp="1580156349162">
+    <state x="395" y="135" width="775" height="511" key="#Project_Structure" timestamp="1580226963511">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="395" y="135" width="775" height="511" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1580156349162" />
+    <state x="395" y="135" width="775" height="511" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1580226963511" />
     <state x="555" y="200" width="800" height="672" key="#Project_Structure/315.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1579131498055" />
     <state x="418" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579131227430">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="418" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/315.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1579131227430" />
-    <state x="738" y="294" width="424" height="479" key="FileChooserDialogImpl" timestamp="1579131307718">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="738" y="294" width="424" height="479" key="FileChooserDialogImpl/315.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1579131307718" />
-    <state width="1324" height="173" key="GridCell.Tab.0.bottom" timestamp="1580224494195">
+    <state x="525" y="198" width="306" height="323" key="FileChooserDialogImpl" timestamp="1580581184951">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="173" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580224494195" />
+    <state x="525" y="198" width="306" height="323" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580581184951" />
+    <state x="738" y="294" width="424" height="479" key="FileChooserDialogImpl/315.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1579131307718" />
+    <state width="1324" height="172" key="GridCell.Tab.0.bottom" timestamp="1580584448994">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="172" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580584448994" />
+    <state width="1878" height="288" key="GridCell.Tab.0.bottom/238.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1580277727237" />
     <state width="1878" height="290" key="GridCell.Tab.0.bottom/315.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1579132404723" />
     <state width="1324" height="290" key="GridCell.Tab.0.bottom/315.1080.1366.768/0.0.1920.1080@315.1080.1366.768" timestamp="1579152032234" />
-    <state width="1324" height="173" key="GridCell.Tab.0.center" timestamp="1580224494194">
+    <state width="1324" height="172" key="GridCell.Tab.0.center" timestamp="1580584448994">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="173" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580224494194" />
+    <state width="1324" height="172" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580584448994" />
+    <state width="1878" height="288" key="GridCell.Tab.0.center/238.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1580277727237" />
     <state width="1878" height="290" key="GridCell.Tab.0.center/315.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1579132404723" />
     <state width="1324" height="290" key="GridCell.Tab.0.center/315.1080.1366.768/0.0.1920.1080@315.1080.1366.768" timestamp="1579152032234" />
-    <state width="1324" height="173" key="GridCell.Tab.0.left" timestamp="1580224494193">
+    <state width="1324" height="172" key="GridCell.Tab.0.left" timestamp="1580584448993">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="173" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580224494193" />
+    <state width="1324" height="172" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580584448993" />
+    <state width="1878" height="288" key="GridCell.Tab.0.left/238.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1580277727236" />
     <state width="1878" height="290" key="GridCell.Tab.0.left/315.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1579132404723" />
     <state width="1324" height="290" key="GridCell.Tab.0.left/315.1080.1366.768/0.0.1920.1080@315.1080.1366.768" timestamp="1579152032233" />
-    <state width="1324" height="173" key="GridCell.Tab.0.right" timestamp="1580224494195">
+    <state width="1324" height="172" key="GridCell.Tab.0.right" timestamp="1580584448994">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1324" height="173" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580224494195" />
+    <state width="1324" height="172" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580584448994" />
+    <state width="1878" height="288" key="GridCell.Tab.0.right/238.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1580277727237" />
     <state width="1878" height="290" key="GridCell.Tab.0.right/315.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1579132404723" />
     <state width="1324" height="290" key="GridCell.Tab.0.right/315.1080.1366.768/0.0.1920.1080@315.1080.1366.768" timestamp="1579152032234" />
-    <state x="187" y="0" key="SettingsEditor" timestamp="1580156274238">
+    <state width="1324" height="216" key="GridCell.Tab.1.bottom" timestamp="1580582631191">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="187" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580156274238" />
-    <state x="361" y="179" key="com.intellij.ide.util.TipDialog" timestamp="1580224288664">
+    <state width="1324" height="216" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580582631191" />
+    <state width="1324" height="216" key="GridCell.Tab.1.center" timestamp="1580582631190">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="361" y="179" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580224288664" />
+    <state width="1324" height="216" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1580582631190" />
+    <state width="1324" height="216" key="GridCell.Tab.1.left" timestamp="1580582631190">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="216" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1580582631190" />
+    <state width="1324" height="216" key="GridCell.Tab.1.right" timestamp="1580582631191">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1324" height="216" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1580582631191" />
+    <state x="266" y="101" width="824" height="519" key="IDE.errors.dialog" timestamp="1580584555034">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="266" y="101" width="824" height="519" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1580584555034" />
+    <state x="187" y="0" key="SettingsEditor" timestamp="1580581155837">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="187" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580581155837" />
+    <state x="361" y="179" key="com.intellij.ide.util.TipDialog" timestamp="1580581170612">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="361" y="179" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580581170612" />
+    <state x="507" y="266" key="com.intellij.ide.util.TipDialog/238.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1580277118973" />
+    <state x="599" y="1269" key="com.intellij.ide.util.TipDialog/238.1080.1366.768/0.0.1920.1080@238.1080.1366.768" timestamp="1580428242643" />
     <state x="676" y="1269" key="com.intellij.ide.util.TipDialog/315.1080.1366.768/0.0.1920.1080@315.1080.1366.768" timestamp="1579986565382" />
     <state x="443" y="160" width="670" height="458" key="search.everywhere.popup" timestamp="1579700105137">
       <screen x="0" y="0" width="1366" height="728" />

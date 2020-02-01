@@ -1,1 +1,7 @@
-hola Lau,Stepha,Camilo
+set-up container-name
+set-down container_name
+
+perform container_name {
+    directory: "sdkfjhksd",
+    command: "psql -U sdfhds sdkfjh"
+}
