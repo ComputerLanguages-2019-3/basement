@@ -14,8 +14,11 @@ public class Main {
             CommonTokenStream tokens = new CommonTokenStream(lexer);
             basementParser parser = new basementParser(tokens);
             ParseTree tree = parser.init();
-            System.out.println("");
-            System.out.println(tree.toStringTree(parser));
+            ParseTreeWalker walker = new ParseTreeWalker();
+            BasementToBashCode listener = new BasementToBashCode();
+            walker.walk(listener, tree);
+            System.out.println("#### Translation");
+            System.out.println(listener.translate);
         } catch (Exception e) {
             System.err.println("Error (Test) " + e);
         }
