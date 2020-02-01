@@ -16,11 +16,12 @@ public class basementParser extends Parser {
 	protected static final PredictionContextCache _sharedContextCache =
 		new PredictionContextCache();
 	public static final int
-		T__0=1, T__1=2, T__2=3, T__3=4, T__4=5, T__5=6, T__6=7, T__7=8, T__8=9, 
-		T__9=10, T__10=11, T__11=12, T__12=13, T__13=14, ID=15, NUMBER=16, REMOVE_TK=17, 
-		SET_TK=18, PERFORM_TK=19, DEPLOY_TK=20, BASEMNT_LIST=21, STRING=22, CURLY_L_TK=23, 
-		CURLY_R_TK=24, KEY_VAL_TK=25, FLAG_TOKEN=26, IMAGE_TYPE_TK=27, CREATE_TK=28, 
-		COMMA_TK=29, SPACE=30, PORT_TK=31, ENVIRONMENT_TK=32, LINK_TK=33, WS=34;
+		T__0=1, T__1=2, T__2=3, T__3=4, T__4=5, T__5=6, T__6=7, PERFORM_TK=8, 
+		DEPLOY_TK=9, BASEMNT_LIST=10, DIR_TK=11, RUNNING_TK=12, COMMAND_TK=13, 
+		REMOVE_TK=14, SET_TK=15, DOWN_TK=16, UP_TK=17, ALL_TK=18, EXITED_TK=19, 
+		FLAG_TOKEN=20, IMAGE_TYPE_TK=21, CREATE_TK=22, PORT_TK=23, ENVIRONMENT_TK=24, 
+		CURLY_L_TK=25, CURLY_R_TK=26, KEY_VAL_TK=27, COMMA_TK=28, ID=29, NUMBER=30, 
+		STRING=31, SPACE=32, WS=33;
 	public static final int
 		RULE_init = 0, RULE_config = 1, RULE_command = 2, RULE_obj = 3, RULE_params = 4, 
 		RULE_deploy_params = 5, RULE_deploy_regular_params = 6, RULE_deploy_keys = 7, 
@@ -43,21 +44,20 @@ public class basementParser extends Parser {
 	private static String[] makeLiteralNames() {
 		return new String[] {
 			null, "'POSTGRES_USER'", "'POSTGRES_PASSWORD'", "'POSTGRES_DB'", "'MONGO_DB'", 
-			"'directory'", "'command'", "'down '", "'up '", "'running'", "'all'", 
-			"'exited'", "'postgres'", "'mongo'", "'nginx'", null, null, "'remove '", 
-			"'set-'", "'perform '", "'deploy '", "'basement-list'", null, "'{'", 
-			"'}'", "':'", "'flag '", "'image-type'", "'creation-time'", "','", "' '", 
-			"'port '", "'env '", "'-'"
+			"'postgres'", "'mongo'", "'nginx'", "'perform '", "'deploy'", "'basement-list'", 
+			"'directory'", "'running'", "'command'", "'remove'", "'set-'", "'down'", 
+			"'up'", "'all'", "'exited'", "'flag'", "'image-type'", "'creation-time'", 
+			"'port'", "'env'", "'{'", "'}'", "':'", "','", null, null, null, "' '"
 		};
 	}
 	private static final String[] _LITERAL_NAMES = makeLiteralNames();
 	private static String[] makeSymbolicNames() {
 		return new String[] {
-			null, null, null, null, null, null, null, null, null, null, null, null, 
-			null, null, null, "ID", "NUMBER", "REMOVE_TK", "SET_TK", "PERFORM_TK", 
-			"DEPLOY_TK", "BASEMNT_LIST", "STRING", "CURLY_L_TK", "CURLY_R_TK", "KEY_VAL_TK", 
-			"FLAG_TOKEN", "IMAGE_TYPE_TK", "CREATE_TK", "COMMA_TK", "SPACE", "PORT_TK", 
-			"ENVIRONMENT_TK", "LINK_TK", "WS"
+			null, null, null, null, null, null, null, null, "PERFORM_TK", "DEPLOY_TK", 
+			"BASEMNT_LIST", "DIR_TK", "RUNNING_TK", "COMMAND_TK", "REMOVE_TK", "SET_TK", 
+			"DOWN_TK", "UP_TK", "ALL_TK", "EXITED_TK", "FLAG_TOKEN", "IMAGE_TYPE_TK", 
+			"CREATE_TK", "PORT_TK", "ENVIRONMENT_TK", "CURLY_L_TK", "CURLY_R_TK", 
+			"KEY_VAL_TK", "COMMA_TK", "ID", "NUMBER", "STRING", "SPACE", "WS"
 		};
 	}
 	private static final String[] _SYMBOLIC_NAMES = makeSymbolicNames();
@@ -153,14 +153,14 @@ public class basementParser extends Parser {
 			setState(52);
 			_errHandler.sync(this);
 			_la = _input.LA(1);
-			while ((((_la) & ~0x3f) == 0 && ((1L << _la) & ((1L << REMOVE_TK) | (1L << SET_TK) | (1L << PERFORM_TK) | (1L << DEPLOY_TK) | (1L << BASEMNT_LIST))) != 0)) {
+			while ((((_la) & ~0x3f) == 0 && ((1L << _la) & ((1L << PERFORM_TK) | (1L << DEPLOY_TK) | (1L << BASEMNT_LIST) | (1L << REMOVE_TK) | (1L << SET_TK))) != 0)) {
 				{
 				setState(50);
 				_errHandler.sync(this);
 				switch (_input.LA(1)) {
+				case PERFORM_TK:
 				case REMOVE_TK:
 				case SET_TK:
-				case PERFORM_TK:
 					{
 					setState(48);
 					command();
@@ -401,7 +401,7 @@ public class basementParser extends Parser {
 			setState(85);
 			_errHandler.sync(this);
 			_la = _input.LA(1);
-			while ((((_la) & ~0x3f) == 0 && ((1L << _la) & ((1L << T__4) | (1L << T__5) | (1L << FLAG_TOKEN) | (1L << IMAGE_TYPE_TK) | (1L << CREATE_TK) | (1L << PORT_TK) | (1L << ENVIRONMENT_TK))) != 0)) {
+			while ((((_la) & ~0x3f) == 0 && ((1L << _la) & ((1L << DIR_TK) | (1L << COMMAND_TK) | (1L << FLAG_TOKEN) | (1L << IMAGE_TYPE_TK) | (1L << CREATE_TK) | (1L << PORT_TK) | (1L << ENVIRONMENT_TK))) != 0)) {
 				{
 				{
 				setState(75);
@@ -496,8 +496,8 @@ public class basementParser extends Parser {
 				bst_params();
 				}
 				break;
-			case T__4:
-			case T__5:
+			case DIR_TK:
+			case COMMAND_TK:
 				enterOuterAlt(_localctx, 3);
 				{
 				setState(92);
@@ -1288,6 +1288,8 @@ public class basementParser extends Parser {
 	}
 
 	public static class Perform_keysContext extends ParserRuleContext {
+		public TerminalNode DIR_TK() { return getToken(basementParser.DIR_TK, 0); }
+		public TerminalNode COMMAND_TK() { return getToken(basementParser.COMMAND_TK, 0); }
 		public Perform_keysContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
 		}
@@ -1316,7 +1318,7 @@ public class basementParser extends Parser {
 			{
 			setState(172);
 			_la = _input.LA(1);
-			if ( !(_la==T__4 || _la==T__5) ) {
+			if ( !(_la==DIR_TK || _la==COMMAND_TK) ) {
 			_errHandler.recoverInline(this);
 			}
 			else {
@@ -1467,18 +1469,18 @@ public class basementParser extends Parser {
 			setState(182);
 			_errHandler.sync(this);
 			switch (_input.LA(1)) {
-			case T__8:
-			case T__9:
-			case T__10:
+			case RUNNING_TK:
+			case ALL_TK:
+			case EXITED_TK:
 				enterOuterAlt(_localctx, 1);
 				{
 				setState(178);
 				flag_val();
 				}
 				break;
-			case T__11:
-			case T__12:
-			case T__13:
+			case T__4:
+			case T__5:
+			case T__6:
 				enterOuterAlt(_localctx, 2);
 				{
 				setState(179);
@@ -1515,6 +1517,8 @@ public class basementParser extends Parser {
 	}
 
 	public static class Type_commandContext extends ParserRuleContext {
+		public TerminalNode DOWN_TK() { return getToken(basementParser.DOWN_TK, 0); }
+		public TerminalNode UP_TK() { return getToken(basementParser.UP_TK, 0); }
 		public Type_commandContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
 		}
@@ -1543,7 +1547,7 @@ public class basementParser extends Parser {
 			{
 			setState(184);
 			_la = _input.LA(1);
-			if ( !(_la==T__6 || _la==T__7) ) {
+			if ( !(_la==DOWN_TK || _la==UP_TK) ) {
 			_errHandler.recoverInline(this);
 			}
 			else {
@@ -1565,6 +1569,9 @@ public class basementParser extends Parser {
 	}
 
 	public static class Flag_valContext extends ParserRuleContext {
+		public TerminalNode RUNNING_TK() { return getToken(basementParser.RUNNING_TK, 0); }
+		public TerminalNode ALL_TK() { return getToken(basementParser.ALL_TK, 0); }
+		public TerminalNode EXITED_TK() { return getToken(basementParser.EXITED_TK, 0); }
 		public Flag_valContext(ParserRuleContext parent, int invokingState) {
 			super(parent, invokingState);
 		}
@@ -1593,7 +1600,7 @@ public class basementParser extends Parser {
 			{
 			setState(186);
 			_la = _input.LA(1);
-			if ( !((((_la) & ~0x3f) == 0 && ((1L << _la) & ((1L << T__8) | (1L << T__9) | (1L << T__10))) != 0)) ) {
+			if ( !((((_la) & ~0x3f) == 0 && ((1L << _la) & ((1L << RUNNING_TK) | (1L << ALL_TK) | (1L << EXITED_TK))) != 0)) ) {
 			_errHandler.recoverInline(this);
 			}
 			else {
@@ -1643,7 +1650,7 @@ public class basementParser extends Parser {
 			{
 			setState(188);
 			_la = _input.LA(1);
-			if ( !((((_la) & ~0x3f) == 0 && ((1L << _la) & ((1L << T__11) | (1L << T__12) | (1L << T__13))) != 0)) ) {
+			if ( !((((_la) & ~0x3f) == 0 && ((1L << _la) & ((1L << T__4) | (1L << T__5) | (1L << T__6))) != 0)) ) {
 			_errHandler.recoverInline(this);
 			}
 			else {
@@ -1665,7 +1672,7 @@ public class basementParser extends Parser {
 	}
 
 	public static final String _serializedATN =
-		"\3\u608b\ua72a\u8133\ub9ed\u417c\u3be7\u7786\u5964\3$\u00c1\4\2\t\2\4"+
+		"\3\u608b\ua72a\u8133\ub9ed\u417c\u3be7\u7786\u5964\3#\u00c1\4\2\t\2\4"+
 		"\3\t\3\4\4\t\4\4\5\t\5\4\6\t\6\4\7\t\7\4\b\t\b\4\t\t\t\4\n\t\n\4\13\t"+
 		"\13\4\f\t\f\4\r\t\r\4\16\t\16\4\17\t\17\4\20\t\20\4\21\t\21\4\22\t\22"+
 		"\4\23\t\23\4\24\t\24\4\25\t\25\4\26\t\26\4\27\t\27\4\30\t\30\4\31\t\31"+
@@ -1680,47 +1687,47 @@ public class basementParser extends Parser {
 		"\22\3\22\3\22\3\22\7\22\u00aa\n\22\f\22\16\22\u00ad\13\22\3\23\3\23\3"+
 		"\24\3\24\3\25\3\25\3\26\3\26\3\26\3\26\5\26\u00b9\n\26\3\27\3\27\3\30"+
 		"\3\30\3\31\3\31\3\31\2\2\32\2\4\6\b\n\f\16\20\22\24\26\30\32\34\36 \""+
-		"$&(*,.\60\2\t\3\2\3\5\4\2\22\22\30\30\3\2\7\b\3\2\34\36\3\2\t\n\3\2\13"+
-		"\r\3\2\16\20\2\u00bc\2\66\3\2\2\2\4=\3\2\2\2\6J\3\2\2\2\bL\3\2\2\2\n_"+
-		"\3\2\2\2\fl\3\2\2\2\16n\3\2\2\2\20x\3\2\2\2\22z\3\2\2\2\24\u008a\3\2\2"+
-		"\2\26\u0090\3\2\2\2\30\u0092\3\2\2\2\32\u0094\3\2\2\2\34\u0096\3\2\2\2"+
-		"\36\u0098\3\2\2\2 \u009a\3\2\2\2\"\u00a4\3\2\2\2$\u00ae\3\2\2\2&\u00b0"+
+		"$&(*,.\60\2\t\3\2\3\5\3\2 !\4\2\r\r\17\17\3\2\26\30\3\2\22\23\4\2\16\16"+
+		"\24\25\3\2\7\t\2\u00bc\2\66\3\2\2\2\4=\3\2\2\2\6J\3\2\2\2\bL\3\2\2\2\n"+
+		"_\3\2\2\2\fl\3\2\2\2\16n\3\2\2\2\20x\3\2\2\2\22z\3\2\2\2\24\u008a\3\2"+
+		"\2\2\26\u0090\3\2\2\2\30\u0092\3\2\2\2\32\u0094\3\2\2\2\34\u0096\3\2\2"+
+		"\2\36\u0098\3\2\2\2 \u009a\3\2\2\2\"\u00a4\3\2\2\2$\u00ae\3\2\2\2&\u00b0"+
 		"\3\2\2\2(\u00b2\3\2\2\2*\u00b8\3\2\2\2,\u00ba\3\2\2\2.\u00bc\3\2\2\2\60"+
 		"\u00be\3\2\2\2\62\65\5\6\4\2\63\65\5\4\3\2\64\62\3\2\2\2\64\63\3\2\2\2"+
 		"\658\3\2\2\2\66\64\3\2\2\2\66\67\3\2\2\2\67\3\3\2\2\28\66\3\2\2\29:\7"+
-		"\26\2\2:;\7\21\2\2;>\5\60\31\2<>\7\27\2\2=9\3\2\2\2=<\3\2\2\2>?\3\2\2"+
-		"\2?@\5\b\5\2@\5\3\2\2\2AB\7\24\2\2BE\5,\27\2CE\7\23\2\2DA\3\2\2\2DC\3"+
-		"\2\2\2EF\3\2\2\2FK\7\21\2\2GH\7\25\2\2HI\7\21\2\2IK\5\b\5\2JD\3\2\2\2"+
-		"JG\3\2\2\2K\7\3\2\2\2LW\7\31\2\2MR\5\n\6\2NO\7\37\2\2OQ\5\n\6\2PN\3\2"+
-		"\2\2QT\3\2\2\2RP\3\2\2\2RS\3\2\2\2SV\3\2\2\2TR\3\2\2\2UM\3\2\2\2VY\3\2"+
-		"\2\2WU\3\2\2\2WX\3\2\2\2XZ\3\2\2\2YW\3\2\2\2Z[\7\32\2\2[\t\3\2\2\2\\`"+
-		"\5\f\7\2]`\5 \21\2^`\5\"\22\2_\\\3\2\2\2_]\3\2\2\2_^\3\2\2\2`\13\3\2\2"+
-		"\2am\5\16\b\2bc\7\"\2\2cd\7\33\2\2di\5\22\n\2ef\7\37\2\2fh\5\16\b\2ge"+
-		"\3\2\2\2hk\3\2\2\2ig\3\2\2\2ij\3\2\2\2jm\3\2\2\2ki\3\2\2\2la\3\2\2\2l"+
-		"b\3\2\2\2m\r\3\2\2\2no\5\20\t\2op\7\33\2\2pu\5\36\20\2qr\7\37\2\2rt\5"+
-		"\16\b\2sq\3\2\2\2tw\3\2\2\2us\3\2\2\2uv\3\2\2\2v\17\3\2\2\2wu\3\2\2\2"+
-		"xy\7!\2\2y\21\3\2\2\2z\u0085\7\31\2\2{\u0080\5\24\13\2|}\7\37\2\2}\177"+
-		"\5\24\13\2~|\3\2\2\2\177\u0082\3\2\2\2\u0080~\3\2\2\2\u0080\u0081\3\2"+
-		"\2\2\u0081\u0084\3\2\2\2\u0082\u0080\3\2\2\2\u0083{\3\2\2\2\u0084\u0087"+
+		"\13\2\2:;\7\37\2\2;>\5\60\31\2<>\7\f\2\2=9\3\2\2\2=<\3\2\2\2>?\3\2\2\2"+
+		"?@\5\b\5\2@\5\3\2\2\2AB\7\21\2\2BE\5,\27\2CE\7\20\2\2DA\3\2\2\2DC\3\2"+
+		"\2\2EF\3\2\2\2FK\7\37\2\2GH\7\n\2\2HI\7\37\2\2IK\5\b\5\2JD\3\2\2\2JG\3"+
+		"\2\2\2K\7\3\2\2\2LW\7\33\2\2MR\5\n\6\2NO\7\36\2\2OQ\5\n\6\2PN\3\2\2\2"+
+		"QT\3\2\2\2RP\3\2\2\2RS\3\2\2\2SV\3\2\2\2TR\3\2\2\2UM\3\2\2\2VY\3\2\2\2"+
+		"WU\3\2\2\2WX\3\2\2\2XZ\3\2\2\2YW\3\2\2\2Z[\7\34\2\2[\t\3\2\2\2\\`\5\f"+
+		"\7\2]`\5 \21\2^`\5\"\22\2_\\\3\2\2\2_]\3\2\2\2_^\3\2\2\2`\13\3\2\2\2a"+
+		"m\5\16\b\2bc\7\32\2\2cd\7\35\2\2di\5\22\n\2ef\7\36\2\2fh\5\16\b\2ge\3"+
+		"\2\2\2hk\3\2\2\2ig\3\2\2\2ij\3\2\2\2jm\3\2\2\2ki\3\2\2\2la\3\2\2\2lb\3"+
+		"\2\2\2m\r\3\2\2\2no\5\20\t\2op\7\35\2\2pu\5\36\20\2qr\7\36\2\2rt\5\16"+
+		"\b\2sq\3\2\2\2tw\3\2\2\2us\3\2\2\2uv\3\2\2\2v\17\3\2\2\2wu\3\2\2\2xy\7"+
+		"\31\2\2y\21\3\2\2\2z\u0085\7\33\2\2{\u0080\5\24\13\2|}\7\36\2\2}\177\5"+
+		"\24\13\2~|\3\2\2\2\177\u0082\3\2\2\2\u0080~\3\2\2\2\u0080\u0081\3\2\2"+
+		"\2\u0081\u0084\3\2\2\2\u0082\u0080\3\2\2\2\u0083{\3\2\2\2\u0084\u0087"+
 		"\3\2\2\2\u0085\u0083\3\2\2\2\u0085\u0086\3\2\2\2\u0086\u0088\3\2\2\2\u0087"+
-		"\u0085\3\2\2\2\u0088\u0089\7\32\2\2\u0089\23\3\2\2\2\u008a\u008b\5\26"+
-		"\f\2\u008b\u008c\7\33\2\2\u008c\u008d\5\34\17\2\u008d\25\3\2\2\2\u008e"+
+		"\u0085\3\2\2\2\u0088\u0089\7\34\2\2\u0089\23\3\2\2\2\u008a\u008b\5\26"+
+		"\f\2\u008b\u008c\7\35\2\2\u008c\u008d\5\34\17\2\u008d\25\3\2\2\2\u008e"+
 		"\u0091\5\30\r\2\u008f\u0091\5\32\16\2\u0090\u008e\3\2\2\2\u0090\u008f"+
 		"\3\2\2\2\u0091\27\3\2\2\2\u0092\u0093\t\2\2\2\u0093\31\3\2\2\2\u0094\u0095"+
-		"\7\6\2\2\u0095\33\3\2\2\2\u0096\u0097\7\30\2\2\u0097\35\3\2\2\2\u0098"+
-		"\u0099\t\3\2\2\u0099\37\3\2\2\2\u009a\u009b\5(\25\2\u009b\u009c\7\33\2"+
-		"\2\u009c\u00a1\5*\26\2\u009d\u009e\7\37\2\2\u009e\u00a0\5 \21\2\u009f"+
-		"\u009d\3\2\2\2\u00a0\u00a3\3\2\2\2\u00a1\u009f\3\2\2\2\u00a1\u00a2\3\2"+
-		"\2\2\u00a2!\3\2\2\2\u00a3\u00a1\3\2\2\2\u00a4\u00a5\5$\23\2\u00a5\u00a6"+
-		"\7\33\2\2\u00a6\u00ab\5&\24\2\u00a7\u00a8\7\37\2\2\u00a8\u00aa\5\"\22"+
-		"\2\u00a9\u00a7\3\2\2\2\u00aa\u00ad\3\2\2\2\u00ab\u00a9\3\2\2\2\u00ab\u00ac"+
-		"\3\2\2\2\u00ac#\3\2\2\2\u00ad\u00ab\3\2\2\2\u00ae\u00af\t\4\2\2\u00af"+
-		"%\3\2\2\2\u00b0\u00b1\7\30\2\2\u00b1\'\3\2\2\2\u00b2\u00b3\t\5\2\2\u00b3"+
-		")\3\2\2\2\u00b4\u00b9\5.\30\2\u00b5\u00b9\5\60\31\2\u00b6\u00b9\7\22\2"+
-		"\2\u00b7\u00b9\7\30\2\2\u00b8\u00b4\3\2\2\2\u00b8\u00b5\3\2\2\2\u00b8"+
-		"\u00b6\3\2\2\2\u00b8\u00b7\3\2\2\2\u00b9+\3\2\2\2\u00ba\u00bb\t\6\2\2"+
-		"\u00bb-\3\2\2\2\u00bc\u00bd\t\7\2\2\u00bd/\3\2\2\2\u00be\u00bf\t\b\2\2"+
-		"\u00bf\61\3\2\2\2\23\64\66=DJRW_ilu\u0080\u0085\u0090\u00a1\u00ab\u00b8";
+		"\7\6\2\2\u0095\33\3\2\2\2\u0096\u0097\7!\2\2\u0097\35\3\2\2\2\u0098\u0099"+
+		"\t\3\2\2\u0099\37\3\2\2\2\u009a\u009b\5(\25\2\u009b\u009c\7\35\2\2\u009c"+
+		"\u00a1\5*\26\2\u009d\u009e\7\36\2\2\u009e\u00a0\5 \21\2\u009f\u009d\3"+
+		"\2\2\2\u00a0\u00a3\3\2\2\2\u00a1\u009f\3\2\2\2\u00a1\u00a2\3\2\2\2\u00a2"+
+		"!\3\2\2\2\u00a3\u00a1\3\2\2\2\u00a4\u00a5\5$\23\2\u00a5\u00a6\7\35\2\2"+
+		"\u00a6\u00ab\5&\24\2\u00a7\u00a8\7\36\2\2\u00a8\u00aa\5\"\22\2\u00a9\u00a7"+
+		"\3\2\2\2\u00aa\u00ad\3\2\2\2\u00ab\u00a9\3\2\2\2\u00ab\u00ac\3\2\2\2\u00ac"+
+		"#\3\2\2\2\u00ad\u00ab\3\2\2\2\u00ae\u00af\t\4\2\2\u00af%\3\2\2\2\u00b0"+
+		"\u00b1\7!\2\2\u00b1\'\3\2\2\2\u00b2\u00b3\t\5\2\2\u00b3)\3\2\2\2\u00b4"+
+		"\u00b9\5.\30\2\u00b5\u00b9\5\60\31\2\u00b6\u00b9\7 \2\2\u00b7\u00b9\7"+
+		"!\2\2\u00b8\u00b4\3\2\2\2\u00b8\u00b5\3\2\2\2\u00b8\u00b6\3\2\2\2\u00b8"+
+		"\u00b7\3\2\2\2\u00b9+\3\2\2\2\u00ba\u00bb\t\6\2\2\u00bb-\3\2\2\2\u00bc"+
+		"\u00bd\t\7\2\2\u00bd/\3\2\2\2\u00be\u00bf\t\b\2\2\u00bf\61\3\2\2\2\23"+
+		"\64\66=DJRW_ilu\u0080\u0085\u0090\u00a1\u00ab\u00b8";
 	public static final ATN _ATN =
 		new ATNDeserializer().deserialize(_serializedATN.toCharArray());
 	static {

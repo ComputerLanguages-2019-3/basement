@@ -1,4 +1,4 @@
-set-up container-name
+set-up container_name
 set-down container_name
 
 perform container_name {
