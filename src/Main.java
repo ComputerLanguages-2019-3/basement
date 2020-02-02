@@ -1,10 +1,7 @@
 import org.antlr.v4.runtime.*;
 import org.antlr.v4.runtime.tree.*;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.InputStreamReader;
+import java.io.*;
 
 public class Main {
 
@@ -22,7 +19,7 @@ public class Main {
 
     public static void executeBashFile(String filePath) {
         ProcessBuilder processBuilder = new ProcessBuilder();
-        processBuilder.command("bash", "-c", "sh " + "/home/laura/IdeaProjects/basement_infra/src/out/output.sh");
+        processBuilder.command("bash", "-c", "sh " + filePath);
 
         try {
             Process process = processBuilder.start();
@@ -32,8 +29,15 @@ public class Main {
             while ((line = reader.readLine()) != null) {
                 System.out.println(line);
             }
+            BufferedReader reader_error =
+                    new BufferedReader(new InputStreamReader(process.getErrorStream()));
+            String line_error;
+            while ((line_error = reader_error.readLine()) != null) {
+                System.out.println(line_error);
+            }
+
             int exitCode = process.waitFor();
-            System.out.println("\nExited with error code : " + exitCode);
+            System.out.println("\nExited with code : " + exitCode);
 
         } catch (Exception e) {
             e.printStackTrace();

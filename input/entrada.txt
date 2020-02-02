@@ -1,3 +1,9 @@
-set-up timescaledb
-set-down timescaledb
-remove timescaledb
+remove postgrescontainer
+deploy postgrescontainer postgres {
+    environment: {
+        POSTGRES_USER: "",
+        POSTGRES_DB: "",
+        POSTGRES_PASSWORD: ""
+    },
+    detached: False
+}
