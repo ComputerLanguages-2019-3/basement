@@ -117,26 +117,6 @@ public interface basementListener extends ParseTreeListener {
 	 */
 	void exitEnv_keys(basementParser.Env_keysContext ctx);
 	/**
-	 * Enter a parse tree produced by {@link basementParser#postgres_env}.
-	 * @param ctx the parse tree
-	 */
-	void enterPostgres_env(basementParser.Postgres_envContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link basementParser#postgres_env}.
-	 * @param ctx the parse tree
-	 */
-	void exitPostgres_env(basementParser.Postgres_envContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link basementParser#mongo_env}.
-	 * @param ctx the parse tree
-	 */
-	void enterMongo_env(basementParser.Mongo_envContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link basementParser#mongo_env}.
-	 * @param ctx the parse tree
-	 */
-	void exitMongo_env(basementParser.Mongo_envContext ctx);
-	/**
 	 * Enter a parse tree produced by {@link basementParser#env_values}.
 	 * @param ctx the parse tree
 	 */

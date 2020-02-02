@@ -15,11 +15,36 @@ public class BasementToBashCode extends basementBaseListener {
     }
 
     @Override
+    public void enterDeploy_regular_params(basementParser.Deploy_regular_paramsContext ctx) {
+        super.enterDeploy_regular_params(ctx);
+
+        if (ctx.deploy_keys().PORT_TK() != null) {
+            String portVal = ctx.deploy_values().STRING().getText().replaceAll("\"", "");
+            this.translate += " -p " + portVal;
+        }
+    }
+
+    @Override
     public void exitDeploy_values(basementParser.Deploy_valuesContext ctx) {
         super.exitDeploy_values(ctx);
          if(ctx.FALSE_TK() != null) {
             this.detachedConfig = false;
          }
+    }
+
+    @Override
+    public void enterEnv_params(basementParser.Env_paramsContext ctx) {
+        super.enterEnv_params(ctx);
+        String envVal = ctx.env_values().STRING().getText();
+
+        if (ctx.env_keys().POSTGRES_ENV_TK() != null) {
+            this.translate += " -e " + ctx.env_keys().POSTGRES_ENV_TK().getText();
+        }
+
+        if (ctx.env_keys().MONGO_ENV_TK() != null) {
+            this.translate += " -e " + ctx.env_keys().MONGO_ENV_TK().getText();
+        }
+        this.translate += "=" + envVal;
     }
 
     @Override
@@ -34,11 +59,11 @@ public class BasementToBashCode extends basementBaseListener {
     @Override
     public void exitConfig(basementParser.ConfigContext ctx) {
         super.exitConfig(ctx);
-        if (ctx.image_type().getText() != null) {
-            this.translate += " " +ctx.image_type().getText();
-        }
         if (ctx.DEPLOY_TK() != null && this.detachedConfig) {
             this.translate += " -d";
+        }
+        if (ctx.image_type().getText() != null) {
+            this.translate += " " +ctx.image_type().getText();
         }
         this.detachedConfig = true;
     }

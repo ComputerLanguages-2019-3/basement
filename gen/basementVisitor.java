@@ -76,18 +76,6 @@ public interface basementVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitEnv_keys(basementParser.Env_keysContext ctx);
 	/**
-	 * Visit a parse tree produced by {@link basementParser#postgres_env}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitPostgres_env(basementParser.Postgres_envContext ctx);
-	/**
-	 * Visit a parse tree produced by {@link basementParser#mongo_env}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitMongo_env(basementParser.Mongo_envContext ctx);
-	/**
 	 * Visit a parse tree produced by {@link basementParser#env_values}.
 	 * @param ctx the parse tree
 	 * @return the visitor result

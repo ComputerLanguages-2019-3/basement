@@ -1,4 +1,4 @@
 #!/bin/bash 
-docker start timescaledb
-docker exec -i timescaledb bash -c "psql -U uptimetest -d uptimetimescale_db -c  'select * from electric;' "
-docker run --name postgrescontainer postgres
+docker stop test-postgres
+docker rm test-postgres
+docker run --name test-postgres -p 80:800 -d postgres

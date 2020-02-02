@@ -1,9 +1,5 @@
-remove postgrescontainer
-deploy postgrescontainer postgres {
-    environment: {
-        POSTGRES_USER: "",
-        POSTGRES_DB: "",
-        POSTGRES_PASSWORD: ""
-    },
-    detached: False
+set down test-postgres
+remove test-postgres
+deploy test-postgres postgres {
+    port: "80:800"
 }
