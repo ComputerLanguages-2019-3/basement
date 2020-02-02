@@ -7,12 +7,26 @@ public class BasementToBashCode extends basementBaseListener {
         if (ctx.REMOVE_TK() != null) {
             this.translate += "docker rm";
         }
+
+        if (ctx.PERFORM_TK() != null) {
+            this.translate += "docker exec -it " + ctx.ID() + " bash -c \"";
+        }
     }
+
+    @Override
+    public void enterPerform_keys(basementParser.Perform_keysContext ctx) {
+        super.enterPerform_keys(ctx);
+        if (ctx.DIR_TK() != null) {
+            this.translate += " cd " + ctx.DIR_TK().getText();
+        }
+    }
+
+
 
     @Override
     public void exitCommand(basementParser.CommandContext ctx) {
         super.exitCommand(ctx);
-        if (ctx.ID() != null){
+        if (ctx.ID() != null && ctx.PERFORM_TK() == null){
             this.translate += " " + ctx.ID().getText();
         }
         this.translate += '\n';
@@ -27,7 +41,7 @@ public class BasementToBashCode extends basementBaseListener {
         }
 
         if (ctx.DOWN_TK() != null ) {
-            this.translate += " down";
+            this.translate += " stop";
         }
     }
 }

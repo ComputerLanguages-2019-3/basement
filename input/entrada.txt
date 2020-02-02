@@ -1,8 +1,3 @@
-set-up container_name
-set-down container_name
-remove container_name
-
-perform container_name {
-    directory: "sdkfjhksd",
-    command: "psql -U sdfhds sdkfjh"
-}
+set-up timescaledb
+set-down timescaledb
+remove timescaledb
