@@ -1,46 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="basement_infra:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="66cd8d45-56e9-4772-87ed-74981c193983" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gen/basement.interp" beforeDir="false" afterPath="$PROJECT_DIR$/gen/basement.interp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gen/basement.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/gen/basement.tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gen/basementLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/gen/basementLexer.interp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gen/basementLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/gen/basementLexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gen/basementLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/gen/basementLexer.tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gen/basementParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/gen/basementParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grammar/basement.g4" beforeDir="false" afterPath="$PROJECT_DIR$/grammar/basement.g4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/input/entrada.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input/entrada.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/BasementToBashCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/BasementToBashCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basement.interp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basement.interp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basement.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basement.tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementLexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementLexer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementLexer.interp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementLexer.tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Bst_keysContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Bst_keysContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Bst_paramsContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Bst_paramsContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Bst_valuesContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Bst_valuesContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$CommandContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$CommandContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$ConfigContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$ConfigContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Deploy_keysContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Deploy_keysContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Deploy_paramsContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Deploy_paramsContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Deploy_regular_paramsContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Deploy_regular_paramsContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Deploy_valuesContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Deploy_valuesContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Env_keysContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Env_keysContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Env_objContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Env_objContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Env_paramsContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Env_paramsContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Env_valuesContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Env_valuesContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Flag_valContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Flag_valContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Image_typeContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Image_typeContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$ObjContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$ObjContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Perform_keysContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Perform_keysContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Perform_paramsContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Perform_paramsContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Perform_valuesContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Perform_valuesContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Type_commandContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Type_commandContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/out/output.sh" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/out/output.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BasementToBashCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BasementToBashCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/out/output.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/output.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +45,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -148,16 +117,20 @@
     </state>
     <state x="395" y="135" width="775" height="511" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1580226963511" />
     <state x="555" y="200" width="800" height="672" key="#Project_Structure/315.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1579131498055" />
-    <state x="282" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580598257902">
+    <state x="282" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580694446487">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="282" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1580598257902" />
+    <state x="282" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1580694446487" />
     <state x="418" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/315.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1579131227430" />
     <state x="491" y="75" width="374" height="570" key="#com.intellij.ide.util.MemberChooser" timestamp="1580685722325">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="491" y="75" width="374" height="570" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1580685722325" />
     <state x="641" y="75" width="374" height="570" key="#com.intellij.ide.util.MemberChooser/0.0.2646.728@0.0.2646.728" timestamp="1580660431942" />
+    <state x="431" y="148" width="525" height="421" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1580694658795">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="431" y="148" width="525" height="421" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1580694658795" />
     <state x="558" y="141" key="#xdebugger.evaluate" timestamp="1580689563056">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -168,34 +141,34 @@
     <state x="525" y="198" width="306" height="323" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580684501209" />
     <state x="773" y="198" key="FileChooserDialogImpl/0.0.2646.728@0.0.2646.728" timestamp="1580659610658" />
     <state x="738" y="294" width="424" height="479" key="FileChooserDialogImpl/315.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1579131307718" />
-    <state width="1304" height="216" key="GridCell.Tab.0.bottom" timestamp="1580692198657">
+    <state width="1304" height="216" key="GridCell.Tab.0.bottom" timestamp="1580692216499">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1304" height="216" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580692198657" />
+    <state width="1304" height="216" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580692216499" />
     <state width="1304" height="216" key="GridCell.Tab.0.bottom/0.0.2646.728@0.0.2646.728" timestamp="1580662519141" />
     <state width="1878" height="288" key="GridCell.Tab.0.bottom/238.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1580277727237" />
     <state width="1878" height="290" key="GridCell.Tab.0.bottom/315.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1579132404723" />
     <state width="1324" height="290" key="GridCell.Tab.0.bottom/315.1080.1366.768/0.0.1920.1080@315.1080.1366.768" timestamp="1579152032234" />
-    <state width="1304" height="216" key="GridCell.Tab.0.center" timestamp="1580692198655">
+    <state width="1304" height="216" key="GridCell.Tab.0.center" timestamp="1580692216497">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1304" height="216" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580692198655" />
+    <state width="1304" height="216" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580692216497" />
     <state width="1304" height="216" key="GridCell.Tab.0.center/0.0.2646.728@0.0.2646.728" timestamp="1580662519141" />
     <state width="1878" height="288" key="GridCell.Tab.0.center/238.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1580277727237" />
     <state width="1878" height="290" key="GridCell.Tab.0.center/315.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1579132404723" />
     <state width="1324" height="290" key="GridCell.Tab.0.center/315.1080.1366.768/0.0.1920.1080@315.1080.1366.768" timestamp="1579152032234" />
-    <state width="1304" height="216" key="GridCell.Tab.0.left" timestamp="1580692198654">
+    <state width="1304" height="216" key="GridCell.Tab.0.left" timestamp="1580692216496">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1304" height="216" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580692198654" />
+    <state width="1304" height="216" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580692216496" />
     <state width="1304" height="216" key="GridCell.Tab.0.left/0.0.2646.728@0.0.2646.728" timestamp="1580662519141" />
     <state width="1878" height="288" key="GridCell.Tab.0.left/238.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1580277727236" />
     <state width="1878" height="290" key="GridCell.Tab.0.left/315.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1579132404723" />
     <state width="1324" height="290" key="GridCell.Tab.0.left/315.1080.1366.768/0.0.1920.1080@315.1080.1366.768" timestamp="1579152032233" />
-    <state width="1304" height="216" key="GridCell.Tab.0.right" timestamp="1580692198656">
+    <state width="1304" height="216" key="GridCell.Tab.0.right" timestamp="1580692216498">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1304" height="216" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580692198656" />
+    <state width="1304" height="216" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580692216498" />
     <state width="1304" height="216" key="GridCell.Tab.0.right/0.0.2646.728@0.0.2646.728" timestamp="1580662519141" />
     <state width="1878" height="288" key="GridCell.Tab.0.right/238.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1580277727237" />
     <state width="1878" height="290" key="GridCell.Tab.0.right/315.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1579132404723" />
@@ -220,10 +193,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="266" y="101" width="824" height="519" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1580586691687" />
-    <state x="187" y="0" key="SettingsEditor" timestamp="1580581155837">
+    <state x="187" y="0" width="1024" height="723" key="SettingsEditor" timestamp="1580694700629">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="187" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580581155837" />
+    <state x="187" y="0" width="1024" height="723" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580694700629" />
     <state width="673" height="359" key="XDebugger.FullValuePopup" timestamp="1580688983003">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

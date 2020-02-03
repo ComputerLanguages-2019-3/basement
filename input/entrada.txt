@@ -10,7 +10,5 @@ deploy test-postgres postgres {
 }
 
 basement-list {
-    flag: "all",
-    image-type: "superset",
-    status: "up"
+    image-type: "postgres"
 }
