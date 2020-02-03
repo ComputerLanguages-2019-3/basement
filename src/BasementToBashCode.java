@@ -50,9 +50,25 @@ public class BasementToBashCode extends basementBaseListener {
     @Override
     public void enterConfig(basementParser.ConfigContext ctx) {
         super.enterConfig(ctx);
-        boolean containerNamePresent = ctx.ID().getText() != null;
-        if (ctx.DEPLOY_TK() != null && containerNamePresent) {
+        if (ctx.DEPLOY_TK() != null && ctx.ID() != null) {
             this.translate += "docker run --name " + ctx.ID().getText() ;
+        }
+
+        if (ctx.BASEMNT_LIST() != null) {
+            this.translate += "docker ps ";
+        }
+    }
+
+    @Override
+    public void enterBst_params(basementParser.Bst_paramsContext ctx) {
+        super.enterBst_params(ctx);
+        if(ctx.bst_values().STRING() != null) {
+            String bstVal = ctx.bst_values().STRING().getText().replaceAll("\"", "");
+            if(ctx.bst_keys().FLAG_TOKEN() != null) {
+                this.translate += " -a";
+            } else {
+                this.translate += " | grep " + bstVal;
+            }
         }
     }
 
@@ -62,9 +78,10 @@ public class BasementToBashCode extends basementBaseListener {
         if (ctx.DEPLOY_TK() != null && this.detachedConfig) {
             this.translate += " -d";
         }
-        if (ctx.image_type().getText() != null) {
+        if (ctx.image_type() != null) {
             this.translate += " " +ctx.image_type().getText();
         }
+        this.translate += "\n";
         this.detachedConfig = true;
     }
 
@@ -77,7 +94,7 @@ public class BasementToBashCode extends basementBaseListener {
             System.out.println(ctx.perform_values().STRING().getText());
             this.translate += " cd " + performVal + " &&";
         } else if (ctx.perform_keys().COMMAND_TK() != null && keyVal) {
-            this.translate += performVal + " \"";
+            this.translate += "sleep 10 && " + performVal + " \""; // TODO: delete sleep process
         }
     }
 

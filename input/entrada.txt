@@ -2,4 +2,15 @@ set down test-postgres
 remove test-postgres
 deploy test-postgres postgres {
     port: "80:800"
+    environment: {
+        POSTGRES_USER: "user",
+        POSTGRES_PASSWORD: "pass",
+        POSTGRES_DB: "db"
+    }
+}
+
+basement-list {
+    flag: "all",
+    image-type: "superset",
+    status: "up"
 }

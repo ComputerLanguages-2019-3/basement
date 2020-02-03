@@ -5,25 +5,18 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gen/basement.interp" beforeDir="false" afterPath="$PROJECT_DIR$/gen/basement.interp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gen/basement.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/gen/basement.tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gen/basementBaseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/gen/basementBaseListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gen/basementBaseVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/gen/basementBaseVisitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gen/basementLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/gen/basementLexer.interp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gen/basementLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/gen/basementLexer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gen/basementLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/gen/basementLexer.tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gen/basementListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/gen/basementListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gen/basementParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/gen/basementParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gen/basementVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/gen/basementVisitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grammar/basement.g4" beforeDir="false" afterPath="$PROJECT_DIR$/grammar/basement.g4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/input/entrada.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input/entrada.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/basement_infra/BasementToBashCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/BasementToBashCode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basement.interp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basement.interp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basement.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basement.tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementBaseListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementBaseListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementBaseVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementBaseVisitor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementLexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementLexer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementLexer.interp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementLexer.tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Bst_keysContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Bst_keysContext.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Bst_paramsContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Bst_paramsContext.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Bst_valuesContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Bst_valuesContext.class" afterDir="false" />
@@ -39,19 +32,15 @@
       <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Env_valuesContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Env_valuesContext.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Flag_valContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Flag_valContext.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Image_typeContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Image_typeContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$InitContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$InitContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Mongo_envContext.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$ObjContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$ObjContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$ParamsContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$ParamsContext.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Perform_keysContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Perform_keysContext.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Perform_paramsContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Perform_paramsContext.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Perform_valuesContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Perform_valuesContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Postgres_envContext.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Type_commandContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser$Type_commandContext.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/basement_infra/basementVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/basementVisitor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/basement_infra/out/output.sh" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basement_infra/out/output.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BasementToBashCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BasementToBashCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/out/output.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/output.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,69 +153,69 @@
     </state>
     <state x="282" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1580598257902" />
     <state x="418" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/315.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1579131227430" />
-    <state x="491" y="75" width="374" height="570" key="#com.intellij.ide.util.MemberChooser" timestamp="1580683858036">
+    <state x="491" y="75" width="374" height="570" key="#com.intellij.ide.util.MemberChooser" timestamp="1580685722325">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="491" y="75" width="374" height="570" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1580683858036" />
+    <state x="491" y="75" width="374" height="570" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1580685722325" />
     <state x="641" y="75" width="374" height="570" key="#com.intellij.ide.util.MemberChooser/0.0.2646.728@0.0.2646.728" timestamp="1580660431942" />
-    <state x="558" y="141" key="#xdebugger.evaluate" timestamp="1580667768986">
+    <state x="558" y="141" key="#xdebugger.evaluate" timestamp="1580689563056">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="558" y="141" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1580667768986" />
-    <state x="525" y="198" width="306" height="323" key="FileChooserDialogImpl" timestamp="1580664756959">
+    <state x="558" y="141" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1580689563056" />
+    <state x="525" y="198" width="306" height="323" key="FileChooserDialogImpl" timestamp="1580684501209">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="525" y="198" width="306" height="323" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580664756959" />
+    <state x="525" y="198" width="306" height="323" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580684501209" />
     <state x="773" y="198" key="FileChooserDialogImpl/0.0.2646.728@0.0.2646.728" timestamp="1580659610658" />
     <state x="738" y="294" width="424" height="479" key="FileChooserDialogImpl/315.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1579131307718" />
-    <state width="1304" height="216" key="GridCell.Tab.0.bottom" timestamp="1580684159066">
+    <state width="1304" height="216" key="GridCell.Tab.0.bottom" timestamp="1580692198657">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1304" height="216" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580684159066" />
+    <state width="1304" height="216" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580692198657" />
     <state width="1304" height="216" key="GridCell.Tab.0.bottom/0.0.2646.728@0.0.2646.728" timestamp="1580662519141" />
     <state width="1878" height="288" key="GridCell.Tab.0.bottom/238.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1580277727237" />
     <state width="1878" height="290" key="GridCell.Tab.0.bottom/315.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1579132404723" />
     <state width="1324" height="290" key="GridCell.Tab.0.bottom/315.1080.1366.768/0.0.1920.1080@315.1080.1366.768" timestamp="1579152032234" />
-    <state width="1304" height="216" key="GridCell.Tab.0.center" timestamp="1580684159065">
+    <state width="1304" height="216" key="GridCell.Tab.0.center" timestamp="1580692198655">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1304" height="216" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580684159065" />
+    <state width="1304" height="216" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580692198655" />
     <state width="1304" height="216" key="GridCell.Tab.0.center/0.0.2646.728@0.0.2646.728" timestamp="1580662519141" />
     <state width="1878" height="288" key="GridCell.Tab.0.center/238.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1580277727237" />
     <state width="1878" height="290" key="GridCell.Tab.0.center/315.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1579132404723" />
     <state width="1324" height="290" key="GridCell.Tab.0.center/315.1080.1366.768/0.0.1920.1080@315.1080.1366.768" timestamp="1579152032234" />
-    <state width="1304" height="216" key="GridCell.Tab.0.left" timestamp="1580684159065">
+    <state width="1304" height="216" key="GridCell.Tab.0.left" timestamp="1580692198654">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1304" height="216" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580684159065" />
+    <state width="1304" height="216" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580692198654" />
     <state width="1304" height="216" key="GridCell.Tab.0.left/0.0.2646.728@0.0.2646.728" timestamp="1580662519141" />
     <state width="1878" height="288" key="GridCell.Tab.0.left/238.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1580277727236" />
     <state width="1878" height="290" key="GridCell.Tab.0.left/315.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1579132404723" />
     <state width="1324" height="290" key="GridCell.Tab.0.left/315.1080.1366.768/0.0.1920.1080@315.1080.1366.768" timestamp="1579152032233" />
-    <state width="1304" height="216" key="GridCell.Tab.0.right" timestamp="1580684159065">
+    <state width="1304" height="216" key="GridCell.Tab.0.right" timestamp="1580692198656">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1304" height="216" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580684159065" />
+    <state width="1304" height="216" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580692198656" />
     <state width="1304" height="216" key="GridCell.Tab.0.right/0.0.2646.728@0.0.2646.728" timestamp="1580662519141" />
     <state width="1878" height="288" key="GridCell.Tab.0.right/238.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1580277727237" />
     <state width="1878" height="290" key="GridCell.Tab.0.right/315.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1579132404723" />
     <state width="1324" height="290" key="GridCell.Tab.0.right/315.1080.1366.768/0.0.1920.1080@315.1080.1366.768" timestamp="1579152032234" />
-    <state width="1304" height="212" key="GridCell.Tab.1.bottom" timestamp="1580681798416">
+    <state width="1304" height="207" key="GridCell.Tab.1.bottom" timestamp="1580689597315">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1304" height="212" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580681798416" />
-    <state width="1304" height="212" key="GridCell.Tab.1.center" timestamp="1580681798416">
+    <state width="1304" height="207" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580689597315" />
+    <state width="1304" height="207" key="GridCell.Tab.1.center" timestamp="1580689597315">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1304" height="212" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1580681798416" />
-    <state width="1304" height="212" key="GridCell.Tab.1.left" timestamp="1580681798415">
+    <state width="1304" height="207" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1580689597315" />
+    <state width="1304" height="207" key="GridCell.Tab.1.left" timestamp="1580689597315">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1304" height="212" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1580681798415" />
-    <state width="1304" height="212" key="GridCell.Tab.1.right" timestamp="1580681798416">
+    <state width="1304" height="207" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1580689597315" />
+    <state width="1304" height="207" key="GridCell.Tab.1.right" timestamp="1580689597315">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1304" height="212" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1580681798416" />
+    <state width="1304" height="207" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1580689597315" />
     <state x="266" y="101" width="824" height="519" key="IDE.errors.dialog" timestamp="1580586691687">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -235,6 +224,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="187" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580581155837" />
+    <state width="673" height="359" key="XDebugger.FullValuePopup" timestamp="1580688983003">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="673" height="359" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1580688983003" />
     <state x="361" y="179" key="com.intellij.ide.util.TipDialog" timestamp="1580664738736">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -242,19 +235,19 @@
     <state x="507" y="266" key="com.intellij.ide.util.TipDialog/238.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1580277118973" />
     <state x="599" y="1269" key="com.intellij.ide.util.TipDialog/238.1080.1366.768/0.0.1920.1080@238.1080.1366.768" timestamp="1580428242643" />
     <state x="676" y="1269" key="com.intellij.ide.util.TipDialog/315.1080.1366.768/0.0.1920.1080@315.1080.1366.768" timestamp="1579986565382" />
-    <state x="190" y="0" width="647" height="728" key="find.popup" timestamp="1580679786910">
+    <state x="190" y="0" width="647" height="728" key="find.popup" timestamp="1580689366874">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="190" y="0" width="647" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1580679786910" />
+    <state x="190" y="0" width="647" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1580689366874" />
     <state x="369" y="0" width="647" height="728" key="find.popup/0.0.2646.728@0.0.2646.728" timestamp="1580617127569" />
     <state x="357" y="163" key="run.anything.popup" timestamp="1580676285082">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="357" y="163" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1580676285082" />
-    <state x="443" y="160" width="672" height="458" key="search.everywhere.popup" timestamp="1580683727611">
+    <state x="443" y="160" width="672" height="458" key="search.everywhere.popup" timestamp="1580692162585">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="443" y="160" width="672" height="458" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1580683727611" />
+    <state x="443" y="160" width="672" height="458" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1580692162585" />
     <state x="858" y="160" width="1302" height="458" key="search.everywhere.popup/0.0.2646.728@0.0.2646.728" timestamp="1580660642918" />
     <state x="623" y="238" width="672" height="678" key="search.everywhere.popup/315.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1579130903431" />
   </component>
@@ -267,19 +260,24 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/BasementToBashCode.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
           <line>60</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/BasementToBashCode.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="7" />
+          <line>57</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BasementToBashCode.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
