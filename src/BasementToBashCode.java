@@ -44,6 +44,10 @@ public class BasementToBashCode extends basementBaseListener {
         if (ctx.env_keys().MONGO_ENV_TK() != null) {
             this.translate += " -e " + ctx.env_keys().MONGO_ENV_TK().getText();
         }
+
+        if (ctx.env_keys().MYSQL_ENV_TK() != null) {
+            this.translate += " -e " + ctx.env_keys().MYSQL_ENV_TK().getText();
+        }
         this.translate += "=" + envVal;
     }
 

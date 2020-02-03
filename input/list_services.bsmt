@@ -1,0 +1,10 @@
+basement-list {
+    flag: "all",
+    image-type: "postgres"
+}
+
+basement-list {
+    flag: "all",
+    status: "Exited",
+    image-type: "rabbitmq"
+}

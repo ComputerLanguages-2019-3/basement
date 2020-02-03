@@ -1,0 +1,4 @@
+deploy timescale-not-detached timescale/timescaledb:latest-pg11 {
+    port: "4010:5432",
+    detached: False
+}

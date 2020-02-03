@@ -1,0 +1,24 @@
+deploy rabbit-test rabbitmq {
+    port: "4002:4369"
+}
+
+deploy mysql-example mysql {
+    environment: {
+        MYSQL_ROOT_PASSWORD: "1234",
+        MYSQL_DATABASE: "mysql_db",
+        MYSQL_USER: "mysql_user",
+        MYSQL_PASSWORD: "user_pass"
+    },
+    port: "4003:3306"
+}
+
+deploy timescale-db-container timescale/timescaledb:latest-pg11 {
+    environment: {
+        POSTGRES_PASSWORD: "test2020",
+        POSTGRES_USER: "time_user",
+        POSTGRES_DB: "timescale_db"
+    },
+    port: "4004:5432"
+}
+
+set down mysql-example

@@ -1,0 +1,5 @@
+set up postgres-container
+perform postgres-container {
+    directory: "",
+    command: "psql -U user -d db -c 'DROP TABLE IF EXISTS languages; CREATE TABLE IF NOT EXISTS languages( id serial PRIMARY KEY, username VARCHAR (50) UNIQUE NOT NULL); SELECT * FROM languages;'"
+}
