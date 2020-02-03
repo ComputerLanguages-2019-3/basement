@@ -7,9 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66cd8d45-56e9-4772-87ed-74981c193983" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/down_remove_and_create_host.bsmt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/entrada.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input/entrada.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/out/output.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/output.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,6 +104,7 @@
       <workItem from="1580605530570" duration="8373000" />
       <workItem from="1580653007329" duration="6199000" />
       <workItem from="1580664734918" duration="1264000" />
+      <workItem from="1580727050191" duration="932000" />
     </task>
     <servers />
   </component>
@@ -201,10 +201,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="673" height="359" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1580688983003" />
-    <state x="361" y="179" key="com.intellij.ide.util.TipDialog" timestamp="1580664738736">
+    <state x="361" y="179" key="com.intellij.ide.util.TipDialog" timestamp="1580727070841">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="361" y="179" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580664738736" />
+    <state x="361" y="179" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580727070841" />
     <state x="507" y="266" key="com.intellij.ide.util.TipDialog/238.1080.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1580277118973" />
     <state x="599" y="1269" key="com.intellij.ide.util.TipDialog/238.1080.1366.768/0.0.1920.1080@238.1080.1366.768" timestamp="1580428242643" />
     <state x="676" y="1269" key="com.intellij.ide.util.TipDialog/315.1080.1366.768/0.0.1920.1080@315.1080.1366.768" timestamp="1579986565382" />

@@ -1,0 +1,11 @@
+set down postgres-container
+remove postgres-container
+
+deploy postgres-container postgres {
+    port: "4001:5234",
+    environment: {
+        POSTGRES_USER: "user",
+        POSTGRES_PASSWORD: "pass",
+        POSTGRES_DB: "db"
+    }
+}
